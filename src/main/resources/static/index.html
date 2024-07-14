@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Users</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CRUD Users</h1>
+    <div>
+        <h2>Add User</h2>
+        <form id="addUserForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+    <div>
+        <h2>Users List</h2>
+        <ul id="usersList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
